@@ -1,0 +1,345 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.navbar-collapse{
+  transition: all ease-in-out 0.5s !important ;
+}
+.navbar-toggler{
+  background-color: transparent !important;
+  color: transparent !important;
+  border: none !important;
+}
+.navbar-toggler .line{
+  width: 30px;
+  height: 3px;
+  border-radius: 100px;
+  margin: 6px 0;
+  background-color: #fff !important;
+  transition: all ease-in-out 0.5s;
+}
+.openmenu .line-1{
+  transform: rotate(45deg);
+  margin: -3px 0;
+}
+.openmenu .line-3{
+  transform: rotate(-45deg);
+  margin: -15px 0;
+}
+.openmenu .line-2{
+  width: 0 !important;
+}
+.openmenu .line-1{
+  transform: translate(-50%, -50%) rotate(-45%);
+
+}
+.openmenu .line-3{
+  transform: translate(-50%, -50%) rotate(45%);
+}
+  nav ul li{
+    margin: 0 20px;
+  }
+  :root{
+--rose-quartz: #b0a1baff;
+--cadet-gray: #a5b5bfff;
+--ash-gray: #abc8c7ff;
+--celadon: #b8e2c8ff;
+--celadon-2: #bff0d4ff;
+
+  }
+  nav{
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px 50px !important;
+    margin: auto;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+
+  }
+  nav ul li a{
+    color: #fff !important;
+    position: relative;
+    text-align: center;
+  }
+  nav ul li a:hover::before{
+    width: 100%;
+  }
+  nav ul li a:hover{
+    color: #fff !important;
+  }
+  nav ul li a::before{
+    content: '';
+    background-color: var(--ash-gray) !important;
+    width: 0;
+    position: absolute;
+    border-radius: 2px;
+    transition: all ease-in-out 0.3s;
+    height: 40px;
+    left: 0;
+    z-index: -99;
+    bottom: 0px;
+  }
+  .navbar-brand{
+    color: #fff !important;
+  }
+  body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .bg{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+.banner{
+  position: relative;
+  padding-top: 100px;
+}
+.banner span{
+  font-weight: 900;
+  font-size: 32vh;
+  opacity: 40%;
+  top: 34%;
+  color: var(--ash-gray);
+  position: absolute;
+  z-index: -99;
+}
+.banner h1{
+  margin-top: 80px;
+  text-shadow: 5px 10px #818181 !important;
+  font-size: 6vw;
+  font-weight: 900;
+  color: #fff;
+  z-index: 99;
+  opacity: 100%;
+}
+
+.find-the-adventure-of-a-life-time .container{
+  padding-top: 100px;
+}
+
+.find-the-adventure-of-a-life-time{
+  height: 350px;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/landscape-tropical-vacation-palm-summer.jpg);
+  
+}
+.btn{
+  background-color: rgb(255, 39, 75)!important;
+  border-radius: 0 !important;
+  color: #fff !important;
+}
+.find-the-adventure-of-a-life-time .row{
+  margin-top: 50px;
+}
+.find-the-adventure-of-a-life-time span{
+  color: #fff !important;
+}
+.find-the-adventure-of-a-life-time select,input:hover{
+  border: 1px solid var(--celadon) !important;
+}
+.find-the-adventure-of-a-life-time select,input{
+  height: 60%;
+  border: 1px solid var(--ash-gray) !important;
+  background-color: transparent;
+  color: #fff !important;
+  border-radius: 2px;
+  padding-left: 20px;
+}
+.find-the-adventure-of-a-life-time input:focus::placeholder{
+  color: transparent !important;
+}
+.find-the-adventure-of-a-life-time input::placeholder{
+  color: #fff !important;
+}
+.find-the-adventure-of-a-life-time input{
+  outline: none;
+}
+select{
+  padding-left: 0 !important;
+}
+
+.top-destination{
+  margin-top: 100px;
+}
+.top-destination h1{
+  font-weight: 200;
+}
+.top-destination p{
+  font-weight: 300;
+}
+.top-destination .container .row{
+  margin-top: 50px;
+}
+.top-destination .container .row div{
+  position: relative;
+  transition: all ease-in-out 0.5s;
+}
+.top-destination .container .row div img{
+  border-radius: 5px;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.text-content h4,span{
+  font-weight: 200;
+}
+.text-content{
+  position: absolute !important;
+  bottom: 5px;
+  color: #fff;
+  left: 30px;
+}
+.top-destination{
+  padding-bottom: 100px;
+}
+.top-destination .container .row div{
+  margin: 20px 0;
+}
+.title{
+  font-weight: 200;
+  text-align: center;
+  margin: 10px 0;
+  text-align: center;
+}
+.beauty-of-nature{
+  background-attachment: fixed;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/bg4.jpg);
+}
+.beauty-of-nature .container .row{
+  margin: 30px 0;
+}
+.beauty-of-nature .container .row div video{
+  border-radius: 10px;
+}
+.content2{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/landscape-tropical-vacation-palm-summer.jpg);
+  background-size: cover;
+  height: 110vh;
+  padding-top: 100px;
+}
+
+.popular-destination .container .row div{
+  margin: 30px 0;
+  position: relative;
+}
+.content2 .container .row div h4{
+  font-weight: 800;
+}
+.content2 .container .row h5{
+  margin-left: 50px;
+  padding: 10px;
+  width: 105px;
+  border-radius: 0 20px 20px 20px;
+  background-color:rgb(255, 39, 75) !important;
+  
+}
+.content2 .container .row div a{
+  margin: 10px 50px;
+}
+.content2 .container .row div{
+  height: 80vh;
+  padding-top: 60px;
+  padding-bottom: 00px !important;
+  color: #fff !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.spc-offer .container-fluid .row div{
+  position: relative;
+  margin: 20px 0;
+}
+.spc-offer .container-fluid .row div:hover::before{
+  opacity: 1;
+}
+.spc-offer .container-fluid .row div .text-content span{
+  font-size: 40px;
+  font-weight: 200;
+  font-size: 25px;
+}
+.spc-offer .container-fluid .row div .text-content  h4{
+  font-size: 40px;
+}
+.subscribe{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/bg5.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+.subscribe .container input{
+  height: 50px !important;
+  outline: none;
+}
+.subscribe .container input::placeholder{
+  color: #fff;
+}
+.subscribe .container .btn{
+  height: 50px;
+  line-height: 35px;
+}
+.subscribe .container{
+  padding: 150px 0;
+}
+.subscribe .container input:focus::placeholder{
+  color: transparent;
+}
+footer{
+  background-color: rgb(0, 0, 14);
+  padding-top: 100px;
+}
+footer h3{
+  color: #fff;
+}
+.content-footer {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.footer-latest-text span{
+  color: rgb(165, 165, 165);
+}
+.footer-latest-text p{
+  color: rgb(255, 39, 75);
+  margin-top: 10px;
+}
+.tags a{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  margin: 3px;
+  background-color: rgb(255, 39, 75);
+}
+footer .container .row div{
+  margin: 30px 0;
+}
+
+@media(max-width:500px){
+  .banner h1{
+    font-size: 10vw;
+  }
+}
+@media(max-width:991px){
+  
+  .subscribe .container .row div{
+    margin: 5px 0;
+  }
+  .content2{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/landscape-tropical-vacation-palm-summer.jpg);
+    padding-bottom: 50px;
+    background-size: cover;
+    padding-top: 100px;
+    height: 100%;
+  }
+  .content2 .container .row div{
+    margin: 30px 0;
+  }
+  nav ul li{
+    margin: 20px 0;
+  }
+  .find-the-adventure-of-a-life-time{
+    height: 100%;
+  }
+  .find-the-adventure-of-a-life-time .container .row div{
+    margin: 20px 0;
+  }
+}
